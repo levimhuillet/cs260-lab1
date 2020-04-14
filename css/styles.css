@@ -1,0 +1,268 @@
+.bg-dark {
+    background-color: #000 !important; /*343a40*/
+}
+
+.bg-dark li a:hover {
+  font-size: medium; /*large*/
+  background-color: #343a40;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.navbar-brand {
+  font-size: x-large;
+}
+
+img {
+   max-width: 100%;/*Inside of whatever it is contained in*/
+}
+
+.profile img {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 25em; /*400px*/
+  border-radius: 10%;
+}
+
+.profile2 img {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 20em;/*250px*/
+  border-radius: 10%;
+}
+
+h1 {
+  margin: 10px;
+  padding-left: 5px;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+  font-family: cursive;
+  font-size: x-large;
+  margin-top: 40px;
+}
+
+p {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 600px;
+  margin-top: 5px;
+}
+
+.pull-left {
+  font-size: small;
+  font-family: monospace;
+}
+
+footer {
+	background-color: #555;
+	color: white;
+	padding: 15px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	position: fixed;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 1
+}
+
+/*fontawesome.com*/
+
+/*----------------Code remnants (ignore)----------------
+
+/*
+.initial {
+ margin-bottom: 0px;
+}
+
+.box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-right: 2px solid lightgrey;
+  border-left: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  width: 40em;
+  height: 30em;
+}*/
+
+/*backward
+.bg-dark li a {
+  padding-left: 10px;
+  margin-left: 20px;
+}*/
+
+/*backward
+.bg-dark li a:hover {
+  font-size: large;
+  background-color: #343a40;
+  padding-left: 10px;
+  margin-left: -10px;
+}*/
+
+/*
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    <a class="dropdown-item" href="reviews.htnl">Reviews</a>
+    <a class="dropdown-item" href="about.html">About</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</li>
+
+
+<form class="form-inline my-2 my-lg-0">
+  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form>
+*/
+
+
+/*
+<section>
+  <aside>
+  </aside>
+   <aside>
+     <h2><i>Review 1</i>
+     </h2>
+     <p>
+       "A very stunning result. I highly recommend this photographer!"
+        <br>
+        <b>- Alyss Treaty</b>
+     </p>
+
+     <h2><i>Review 2</i>
+     </h2>
+     <p>
+       "Nature is incomparable in beauty. Thank you for showing that to me"
+       <br>
+        <b>- An enlightened soul</b>
+     </p>
+
+     <h2><i>Review 3</i>
+     </h2>
+          <p>
+            "A+++++++++++++"
+            <br>
+             <b>- Jordan Isaac</b>
+          </p>
+
+   </aside>
+   <article>
+      <h2><i>Review 4</i>
+      </h2>
+      <p>
+        "Just make them move, and you got yourself a movie"
+        <br>
+         <b>- Christopher Nolan</b>
+      </p>
+
+      <h2><i>Review 5</i>
+      </h2>
+      <p>
+        "We couldn't be happier with this family photo!"
+        <br>
+         <b>- The trees themselves</b>
+      </p>
+
+      <h2><i>Review 6</i>
+      </h2>
+      <p>
+        "His mind is like an abyss, where the deeper you descend, the more difficult it is to return..."
+        <br>
+         <b>- Reg</b>
+      </p>
+   </article>
+   <article>
+   </article>
+</section>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <h2><i>Review 1</i>
+      </h2>
+      <p>
+        "A very stunning result. I highly recommend this photographer!"
+        <br>
+        <b>- Alyss Treaty</b>
+      </p>
+    </div>
+    <div class="col-sm">
+      <h2><i>Review 2</i>
+      </h2>
+      <p>
+        "Nature is incomparable in beauty. Thank you for showing that to me"
+        <br>
+        <b>- An enlightened soul</b>
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+      <h2><i>Review 3</i>
+      </h2>
+      <p>
+        "A+++++++++++++"
+        <br>
+        <b>- Jordan Isaac</b>
+      </p>
+    </div>
+    <div class="col-sm">
+      <h2><i>Review 4</i>
+      </h2>
+      <p>
+        "Just make them move, and you got yourself a movie"
+        <br>
+        <b>- Christopher Nolan</b>
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+      <h2><i>Review 5</i>
+      </h2>
+      <p>
+        "We couldn't be happier with this family photo!"
+        <br>
+        <b>- The trees themselves</b>
+      </p>
+    </div>
+    <div class="col-sm">
+      <h2><i>Review 6</i>
+      </h2>
+      <p>
+        "His mind is like an abyss, where the deeper you descend, the more difficult it is to return..."
+        <br>
+        <b>- Reg</b>
+      </p>
+    </div>
+  </div>
+</div>
+*/

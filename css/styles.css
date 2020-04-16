@@ -88,181 +88,34 @@ article {
  flex: 1
 }
 
-/*fontawesome.com*/
-
-/*----------------Code remnants (ignore)----------------
-
-/*
-.initial {
- margin-bottom: 0px;
+.return {
+    position: fixed;
+    list-style-type: none;
+    text-align: center;
+    bottom: 100px;
+    left: 50px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 200px;
+    background-color: #337194;
+    color: black;
+    padding: 2px;
 }
 
-.box {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  border-right: 2px solid lightgrey;
-  border-left: 2px solid lightgrey;
-  border-bottom: 2px solid lightgrey;
-  width: 40em;
-  height: 30em;
-}*/
+.return a {
+  color: black;
+  text-decoration: none;
+  border: 2px solid #000;
+}
 
-/*backward
-.bg-dark li a {
-  padding-left: 10px;
-  margin-left: 20px;
-}*/
-
-/*backward
-.bg-dark li a:hover {
-  font-size: large;
-  background-color: #343a40;
-  padding-left: 10px;
-  margin-left: -10px;
-}*/
-
-/*
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
-  </a>
-  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-    <a class="dropdown-item" href="reviews.htnl">Reviews</a>
-    <a class="dropdown-item" href="about.html">About</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div>
-</li>
+.return a:hover {
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+}
 
 
-<form class="form-inline my-2 my-lg-0">
-  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-</form>
-*/
 
-
-/*
-<section>
-  <aside>
-  </aside>
-   <aside>
-     <h2><i>Review 1</i>
-     </h2>
-     <p>
-       "A very stunning result. I highly recommend this photographer!"
-        <br>
-        <b>- Alyss Treaty</b>
-     </p>
-
-     <h2><i>Review 2</i>
-     </h2>
-     <p>
-       "Nature is incomparable in beauty. Thank you for showing that to me"
-       <br>
-        <b>- An enlightened soul</b>
-     </p>
-
-     <h2><i>Review 3</i>
-     </h2>
-          <p>
-            "A+++++++++++++"
-            <br>
-             <b>- Jordan Isaac</b>
-          </p>
-
-   </aside>
-   <article>
-      <h2><i>Review 4</i>
-      </h2>
-      <p>
-        "Just make them move, and you got yourself a movie"
-        <br>
-         <b>- Christopher Nolan</b>
-      </p>
-
-      <h2><i>Review 5</i>
-      </h2>
-      <p>
-        "We couldn't be happier with this family photo!"
-        <br>
-         <b>- The trees themselves</b>
-      </p>
-
-      <h2><i>Review 6</i>
-      </h2>
-      <p>
-        "His mind is like an abyss, where the deeper you descend, the more difficult it is to return..."
-        <br>
-         <b>- Reg</b>
-      </p>
-   </article>
-   <article>
-   </article>
-</section>
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-      <h2><i>Review 1</i>
-      </h2>
-      <p>
-        "A very stunning result. I highly recommend this photographer!"
-        <br>
-        <b>- Alyss Treaty</b>
-      </p>
-    </div>
-    <div class="col-sm">
-      <h2><i>Review 2</i>
-      </h2>
-      <p>
-        "Nature is incomparable in beauty. Thank you for showing that to me"
-        <br>
-        <b>- An enlightened soul</b>
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm">
-      <h2><i>Review 3</i>
-      </h2>
-      <p>
-        "A+++++++++++++"
-        <br>
-        <b>- Jordan Isaac</b>
-      </p>
-    </div>
-    <div class="col-sm">
-      <h2><i>Review 4</i>
-      </h2>
-      <p>
-        "Just make them move, and you got yourself a movie"
-        <br>
-        <b>- Christopher Nolan</b>
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm">
-      <h2><i>Review 5</i>
-      </h2>
-      <p>
-        "We couldn't be happier with this family photo!"
-        <br>
-        <b>- The trees themselves</b>
-      </p>
-    </div>
-    <div class="col-sm">
-      <h2><i>Review 6</i>
-      </h2>
-      <p>
-        "His mind is like an abyss, where the deeper you descend, the more difficult it is to return..."
-        <br>
-        <b>- Reg</b>
-      </p>
-    </div>
-  </div>
-</div>
-*/
+/*fontawesome.com*/

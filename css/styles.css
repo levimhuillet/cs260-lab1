@@ -1,44 +1,13 @@
-.bg-dark {
-  background-color: #000 !important;
-  /*343a40*/
-}
-
+/* Bootstrap Navbar */
 .navbar-brand {
   font-size: x-large;
 }
 
-.expand img {
-  max-width: 100%;
-  transition: 1.0s ease;
+.bg-dark {
+  background-color: #000 !important;
 }
 
-.expand img:hover {
-  transform: scale(2.0);
-  z-index: 1;
-}
-
-.profile img {
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
-  width: 25em;
-  /*400px*/
-  border-radius: 10%;
-}
-
-.profile2 img {
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
-  width: 20em;
-  /*250px*/
-  border-radius: 10%;
-}
-
+/* Body */
 h1 {
   margin: 10px;
   padding-right: 20px;
@@ -63,21 +32,41 @@ p {
   margin-top: 5px;
 }
 
-.pull-left {
-  font-size: small;
-  font-family: monospace;
+/* Portfolio Images */
+.expand img {
+  max-width: 100%;
+  transition: 1.0s ease;
 }
 
-footer {
-  background-color: #555;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 50px;
-  padding: 8px;
+.expand img:hover {
+  transform: scale(2.0);
+  z-index: 1;
 }
 
+/* Profile Images */
+.profile2 img {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 20em;
+  /*250px*/
+  border-radius: 10%;
+}
+
+/*
+.profile img {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 25em;
+  border-radius: 10%;
+}
+*/
+/* Flex Box */
 section {
   display: flex;
 }
@@ -90,6 +79,7 @@ article {
   flex: 1
 }
 
+/* Return to Landing Page Button */
 .return {
   position: fixed;
   list-style-type: none;
@@ -118,13 +108,24 @@ article {
   text-decoration: none;
 }
 
-/*fontawesome.com*/
+/* Footer */
+footer {
+  background-color: #555;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  padding: 8px;
+  font-size: small;
+  font-family: monospace;
+}
+
 /*Media Queries*/
 /*990px width is when bootstrap bar constricts*/
 @media (max-width: 990px) {
   .bg-dark li a:hover {
     font-size: medium;
-    /*large*/
     background-color: #343a40;
     padding-left: 10px;
     margin-left: 10px;

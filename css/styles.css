@@ -1,12 +1,6 @@
 .bg-dark {
-    background-color: #000 !important; /*343a40*/
-}
-
-.bg-dark li a:hover {
-  font-size: medium; /*large*/
-  background-color: #343a40;
-  padding-left: 10px;
-  margin-left: 10px;
+  background-color: #000 !important;
+  /*343a40*/
 }
 
 .navbar-brand {
@@ -14,7 +8,8 @@
 }
 
 img {
-   max-width: 100%;/*Inside of whatever it is contained in*/
+  max-width: 100%;
+  /*Inside of whatever it is contained in*/
 }
 
 .profile img {
@@ -23,7 +18,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
-  width: 25em; /*400px*/
+  width: 25em;
+  /*400px*/
   border-radius: 10%;
 }
 
@@ -33,7 +29,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
-  width: 20em;/*250px*/
+  width: 20em;
+  /*250px*/
   border-radius: 10%;
 }
 
@@ -66,42 +63,42 @@ p {
 }
 
 footer {
-	background-color: #555;
-	color: white;
-	padding: 15px;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 50px;
-	position: fixed;
+  background-color: #555;
+  color: white;
+  padding: 15px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  position: fixed;
 }
 
 section {
- display: flex;
+  display: flex;
 }
 
 aside {
- flex: 1
+  flex: 1
 }
 
 article {
- flex: 1
+  flex: 1
 }
 
 .return {
-    position: fixed;
-    list-style-type: none;
-    text-align: center;
-    bottom: 100px;
-    left: 50px;
-    margin: 0px;
-    padding: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 200px;
-    background-color: #337194;
-    color: black;
-    padding: 2px;
+  position: fixed;
+  list-style-type: none;
+  text-align: center;
+  bottom: 100px;
+  left: 50px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 200px;
+  background-color: #337194;
+  color: black;
+  padding: 2px;
 }
 
 .return a {
@@ -116,6 +113,15 @@ article {
   text-decoration: none;
 }
 
-
-
 /*fontawesome.com*/
+/*Media Queries*/
+/*990px width is when bootstrap bar constricts*/
+@media (max-width: 990px) {
+  .bg-dark li a:hover {
+    font-size: medium;
+    /*large*/
+    background-color: #343a40;
+    padding-left: 10px;
+    margin-left: 10px;
+  }
+}

@@ -74,14 +74,16 @@ p {
 }
 */
 /* Reviews */
-.review-left {
+.review-right {
+  /* float opposite, then put it halfway across the screen to be right*/
   float: left;
   position: relative;
   left: 51%;
   max-width: 80%;
 }
 
-.review-right {
+.review-left {
+  /* float opposite, then put it halfway across the screen to be left*/
   float: right;
   position: relative;
   right: 51%;
